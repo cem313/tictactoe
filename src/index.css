@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark-blue: #1a2932;
+  --lighter-blue: #1f3640;
+  --gray: #a8bfc9;
+  --yellow: #f2b137;
+  --turquoise: #2fc5bd;
+  --box-shadow: 0px 3px 2px black;
+}
+
+body {
+  background-color: var(--dark-blue);
+  padding: 100px;
+}
+
+p,
+h1 {
+  text-align: center;
+}
+
+.x {
+  color: var(--turquoise);
+}
+
+.o {
+  color: var(--yellow);
+}
+
+.gray-text {
+  color: var(--gray);
+}
+
+.turquoise-text {
+  color: var(--turquoise);
+}

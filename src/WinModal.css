@@ -1,0 +1,37 @@
+.win-modal {
+  background-color: var(--lighter-blue);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: calc(50% - 100px);
+  z-index: 2;
+}
+
+.win-modal h1 {
+  margin: 10px 0px;
+}
+
+.win-modal__actions {
+  display: flex;
+  justify-content: center;
+
+}
+
+.win-modal__actions button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px 5px;
+}
+
+.quit {
+  background-color: var(--gray);
+}
+
+.next-round {
+  background-color: var(--yellow);
+}
